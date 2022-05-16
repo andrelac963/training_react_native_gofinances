@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "treinamento_native_gofinances",
+    "slug": "treinamento_native_gofinances",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
