@@ -1,5 +1,5 @@
 import React from 'react';
-import AppLoading from 'expo-app-loading';
+import SplashScreen from 'react-native-splash-screen';
 import { ThemeProvider } from 'styled-components';
 
 import {
@@ -21,7 +21,7 @@ export default function App() {
   });
 
   if(!fontsLoaded){
-    return <AppLoading />
+    return SplashScreen
   }
 
   return (
